@@ -2,7 +2,7 @@
 title = 'Home'
 +++
 
-## Welcome to jennsanders.net!
+# Welcome to jennsanders.net!
 
 My name is Jennifer Sanders and you've stumbled across my personal website! I'm a network engineer located near Olympia, Washington, USA.
 

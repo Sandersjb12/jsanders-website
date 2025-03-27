@@ -11,7 +11,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -59,6 +59,7 @@ paginate = 5
   # Example format, with date, time, and timezone abbreviation:
   # dateFormat = "2006-01-02 3:04:06 PM MST"
 
+  favicon="favicon.png"
 
 [params.twitter]
   # set Twitter handles for Twitter cards
@@ -70,13 +71,13 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Jennifer Sanders - Network Engineer"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
-      owner = ""
-      keywords = ""
-      copyright = ""
+      owner = "owner"
+      keywords = "keywords"
+      copyright = "copyright"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
@@ -88,18 +89,23 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "jennsanders.net"
         logoHomeLink = "/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
-          identifier = "about"
-          name = "About"
-          url = "/about"
+          identifier = "about-me"
+          name = "About Me"
+          url = "/about-me"
         [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
+          identifier = "dn42"
+          name = "dn42"
+          url = "/dn42"
+        [[languages.en.menu.main]]
+          identifier = "homelab"
+          name = "Homelab"
+          url = "/homelab"
+
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
