@@ -29,3 +29,5 @@ Here's a list of services provided:
     - NetBox source of truth
 - Development
     - Web server
+- Media
+    - Plex, mainly for my Grateful Dead collection :)
