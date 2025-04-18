@@ -8,6 +8,10 @@ dn42 is a large decentralized peer-to-peer network intended to simulate the publ
 
 I run and maintain AS4242422914 (JSANDERS-DN42) in order to give myself some hands-on experience with the bigger picture of setting up and managing an independent ASN and I find this to be a valuable perspective into problems and solutions that I may not have a chance to see from the NOC. Below, I'll detail the architecture and design and some of the decisions that went into it.
 
+## Looking glass
+
+I maintain a [public looking glass](https://lg.dn42.jennsanders.net/) for AS4242422914 that is free to use, please don't break it!
+
 ## Backbone
 
 In order to have an interesting global topology while keeping hosting costs under control, the AS4242422914 backbone consists of four nodes configured in a ring topology located in Dallas, Seattle, Frankfurt, and Tokyo. 

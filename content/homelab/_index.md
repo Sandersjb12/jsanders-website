@@ -13,21 +13,23 @@ The "lab" side is hosted by an older Dell workstation obtained from a colleague 
 Here's a list of services provided:
 
 - DNS (internal)
-    - PiHole for internal hosts providing recursive resolution and ad blocking
-- DNS (dn42) (planned)
-    - PowerDNS authoritative server for jsanders.dn42 domain
-- NTP (Planned)
+    - [PiHole](https://pi-hole.net/) for internal hosts providing recursive resolution and ad blocking
+- DNS (dn42)
+    - [PowerDNS](https://www.powerdns.com/) authoritative server for jsanders.dn42 domain
+- NTP
     - Stratum 1 time server via GPS
+    - [Chrony](https://chrony-project.org/) fed by [gpsd](https://gpsd.io/)
+    - Accurate to ~10ms
 - Monitoring
-    - LibreNMS for SNMP-based monitoring
-    - Oxidized for router config version control
-    - OpenBMP monitoring for dn42 (currently disabled due to RAM concerns...)
+    - [LibreNMS](https://www.librenms.org/) for SNMP-based monitoring
+    - [Oxidized](https://github.com/ytti/oxidized) for router config version control
+    - (planned) dn42 traffic flow accounting exporting to Prometheus/Grafana
 - Routing
-    - VyOS router/firewall for connectivity to jsanders.dn42 backbone
+    - [VyOS](https://vyos.io/) router/firewall for connectivity to jsanders.dn42 backbone
 - Automation
-    - Ansible control node
-    - NetBox source of truth
+    - [Ansible](https://github.com/ansible/ansible) control node
+    - [NetBox](https://netboxlabs.com/) source of truth
 - Development
     - Web server
 - Media
-    - Plex, mainly for my Grateful Dead collection :)
+    - [Plex](https://www.plex.tv/), mainly for my Grateful Dead collection :)

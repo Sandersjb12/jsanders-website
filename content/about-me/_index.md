@@ -11,7 +11,7 @@ I currently work for NTT DATA Inc in the Global IP NOC where I do a variety of t
 This will be a bit of an extended resume/CV with some items that don't fit on a single PDF page. You can also find the abbreviated "HR version" in PDF for download below. :)
 
 ## Resume/CV
-[PDF version](jennsanders-resume.pdf)
+[PDF version](jsanders-resume.pdf)
 
 ### Experience
 
@@ -20,16 +20,17 @@ This will be a bit of an extended resume/CV with some items that don't fit on a 
 
 *Network Analyst, 2017 - 2023*
 
-- Member of highly rated NTT GIN NOC team known for fast, effective, and tierless support via phone and email.
+- Member of the highly rated NTT GIN NOC team known for fast, effective, and tierless support via phone and email.
 - Performed my duties as a steward of the network, supporting customers directly as well as performing fiber optic/DWDM troubleshooting, migrations, software upgrades, traffic analysis/engineering, DDoS monitoring, and anything else that might fall under our broad NOC umbrella.
 - Monitored global internet service provider network using IBM NOI, pmacct + Imply data stack, and various internal tools.
 - Utilized ServiceNow to track, own, resolve, and document customer and backbone issues as well as changes.
-- Graduate of NTT DATA Fast Track leadership program FY24 at INSEAD campus in Singapore.
+- 2024 graduate of NTT DATA Fast Track leadership program at INSEAD business school in Singapore.
 
 #### [Hilltop Holdings](https://www.hilltop.com/) / [PlainsCapital Bank](https://plainscapital.com/) - Dallas, TX, USA
 *IT Auditor, 2016 - 2017*
 
 - Performed compliance and SOX auditing for 4 financial subsidiaries under Hilltop Holdings.
+- Please don't contact me regarding Auditing positions, I don't have any plans to return to the field.
 
 *PC Support Specialist, 2015-2016*
 
@@ -37,7 +38,7 @@ This will be a bit of an extended resume/CV with some items that don't fit on a 
 
 - Provided expert deskside, phone, and email support to employees and VIPs at HQ and 20 branch locations around the DFW area.
 - Performed remote hands work on-site for network and server admins.
-- Led first line high-touch support for C-suite executives at corporate HQ.
+- Led first line high-touch support at corporate HQ assisting C-suite VIPs face-to-face and during shareholder/board calls.
 
 ### Skills
 
@@ -57,7 +58,7 @@ This will be a bit of an extended resume/CV with some items that don't fit on a 
     - MPLS
     - LDP / RSVP-TE
 - Other Application layer protocols
-    - DNS (BIND / Infoblox)
+    - DNS (PowerDNS)
     - SNMP monitoring
     - NTP
     - TLS/SSL
